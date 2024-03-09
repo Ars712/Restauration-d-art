@@ -1,0 +1,39 @@
+.paintings {
+  margin-top: 25px;
+
+  &__title {
+    font-family: 'Kelly Slab', 'Arial', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+  }
+  &__subtitle {
+    font-family: 'Kelly Slab', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+    margin-top: 15px;
+  }
+}
+
+// @media (min-width: $tablet-width){
+
+// }
+
+@media (min-width: $desktop-width) {
+  .paintings {
+    &__title {
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+    &__subtitle {
+      font-size: 26px;
+      margin-top: 35px;
+      letter-spacing: 3px;
+    }
+  }
+}

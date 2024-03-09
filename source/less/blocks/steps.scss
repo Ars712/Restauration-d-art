@@ -1,0 +1,40 @@
+.steps {
+  &__title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  &__list {
+    list-style: '- ';
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  &__item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.steps {
+  &__list--margin-left {
+    margin-left: 15px;
+  }
+  &__title--margin {
+    margin: 15px 0 5px 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .steps {
+    &__title {
+      font-size: 24px;
+    }
+    &__list {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.main-nav {
+  display: none;
+
+  &__list {
+    list-style: none;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  &__link {
+    color: $start_page_font_color;
+    text-decoration: none;
+  }
+}

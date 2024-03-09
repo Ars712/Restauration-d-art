@@ -1,0 +1,40 @@
+// variabel
+@import 'global/fonts.scss';
+@import 'global/normalize.scss';
+@import 'global/global.scss';
+@import 'global/variabel.scss';
+@import 'global/device-media.scss';
+@import 'global/container.scss';
+@import 'global/margin-both.scss';
+
+// blocks
+@import 'blocks/page.scss';
+@import 'blocks/page-header.scss';
+@import 'blocks/burger-button.scss';
+
+@import 'blocks/link.scss';
+
+@import 'blocks/main-nav.scss';
+@import 'blocks/page-main.scss';
+@import 'blocks/picture-menu.scss';
+@import 'blocks/slider.scss';
+@import 'blocks/show.scss';
+
+@import 'blocks/biography.scss';
+
+@import 'blocks/page-works.scss';
+@import 'blocks/contents.scss';
+@import 'blocks/detailes.scss';
+@import 'blocks/example-list.scss';
+@import 'blocks/icon.scss';
+@import 'blocks/paintings.scss';
+@import 'blocks/steps.scss';
+@import 'blocks/icon-image.scss';
+@import 'blocks/detailes.scss';
+
+@import 'blocks/modificators.scss';
+
+@import 'blocks/contacts.scss';
+@import 'blocks/description.scss';
+
+@import 'blocks/page-footer.scss';

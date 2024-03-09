@@ -1,0 +1,16 @@
+.page {
+  font-size: 22px;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.page__body {
+  background-color: $background_color;
+  color: $start_page_font_color;
+}
+
+.page__wrapper {
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  min-height: 100vh;
+  margin: 0 auto;
+}

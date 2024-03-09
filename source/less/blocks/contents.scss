@@ -1,0 +1,32 @@
+.contents {
+  text-align: center;
+  &__list {
+    list-style: none;
+    font-family: 'Kelly Slab', 'Arial', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    padding: 0;
+  }
+  &__link {
+    color: $start_page_font_color;
+    text-decoration: none;
+  }
+  &__image {
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px 1px black;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contents__list {
+    font-size: 25px;
+  }
+  .contents__item {
+    margin-bottom: 5px;
+  }
+}

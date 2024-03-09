@@ -1,0 +1,19 @@
+.description {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__image {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__text {
+    margin: 0;
+    color: $start_page_font_color;
+  }
+
+  svg {
+    fill: $btn_color;
+  }
+}

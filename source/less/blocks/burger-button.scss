@@ -1,0 +1,53 @@
+.burger-button__burger {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 20px;
+  top: 20%;
+}
+
+.burger-button__burger span {
+  height: 2px;
+  width: 100%;
+  transform: scale(1);
+  background-color: $btn_color;
+  border-radius: 10px;
+}
+
+.burger-button__burger::before {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: $btn_color;
+  transition: all 0.3s ease 0s;
+  top: 0px;
+  border-radius: 10px;
+}
+
+.burger-button__burger::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: $btn_color;
+  transition: all 0.3s ease 0s;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.burger-button__burger.active span {
+  transform: scale(0);
+}
+
+.burger-button__burger.active::after {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.burger-button__burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg);
+}

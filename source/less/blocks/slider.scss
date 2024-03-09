@@ -1,0 +1,14 @@
+.swiper {
+  max-width: 95vw;
+  width: 100%;
+  height: auto;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: $btn_color;
+  font-size: 25px;
+  opacity: 0.7;
+}
+.swiper-button-next {
+}

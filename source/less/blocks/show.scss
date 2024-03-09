@@ -1,0 +1,12 @@
+.show {
+  display: block;
+  animation: burgerOpen 0.7s;
+}
+@keyframes burgerOpen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

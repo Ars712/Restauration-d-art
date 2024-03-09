@@ -1,0 +1,41 @@
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  align-content: center;
+
+  &__contact {
+    display: flex;
+    justify-content: space-around;
+
+    svg {
+      fill: $btn_color;
+    }
+  }
+
+  &__creator {
+    text-align: center;
+  }
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  p {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: $width-450) {
+  .page-footer p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer p {
+    font-size: 14px;
+  }
+}
